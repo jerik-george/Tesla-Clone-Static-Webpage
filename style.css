@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.top-bar{
+    width: 100%;
+    height: 53px;
+    background-color: #f4f4f4;
+}
+
+.text{
+    width: fit-content;
+    margin-left: 789px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.text .para { 
+    display: inline;
+}
+
+.text .link{
+    margin-left: 15px;
+    color: #171a20;
+}
