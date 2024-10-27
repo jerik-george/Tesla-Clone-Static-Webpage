@@ -28,3 +28,57 @@ body{
     margin-left: 15px;
     color: #171a20;
 }
+
+.left-side{
+    width: fit-content;
+    float: left;
+}
+
+.logo{
+    margin-left: 48px;
+    padding-top: 16px;
+    cursor: pointer;
+}
+
+.menu-items{
+    margin-left: 477px;
+    padding-top: 18px;
+    width: fit-content;
+    padding-bottom: 18px;
+    padding-left: 57px;
+    float: left;
+}
+
+.list li{
+    display: inline;
+    font-size: 14px;
+    font-weight: medium;
+    cursor: pointer;
+    padding: 6px 16px;
+}
+
+.list li:hover{
+    background-color: #f4f4f4;
+    border-radius: 4px;
+}
+
+.right-side{
+    float: left;
+    margin-left: 530px;
+    margin-top: 12px;
+}
+
+.icons li{
+    display: inline;
+}
+
+.icons li svg{
+    display: inline;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.icons li svg:hover{
+    background-color: #f4f4f4;
+}
