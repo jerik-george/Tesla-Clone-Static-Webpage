@@ -99,6 +99,10 @@ body{
     background-image: url(assets/model-x.png);
 }
 
+.model-s-img{
+    background-image: url(assets/model-s.png);
+}
+
 .main-img{
     display: inline-block;
     position: relative;
@@ -189,7 +193,7 @@ body{
 }
 
 .scnd-btn a{
-    color: black;
+    color: #393c41;
     text-decoration: none;
 }
 
