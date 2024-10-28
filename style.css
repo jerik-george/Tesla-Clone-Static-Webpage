@@ -95,6 +95,10 @@ body{
     background-image: url(assets/model-3.png);
 }
 
+.model-x-img{
+    background-image: url(assets/model-x.png);
+}
+
 .main-img{
     display: inline-block;
     position: relative;
@@ -129,6 +133,11 @@ body{
     cursor: pointer;
     text-align: center;
     display: block;
+}
+
+.scnd-line sup{
+    font-size: 9px;
+    text-align: center;
 }
 
 .thrd-line{
@@ -182,4 +191,9 @@ body{
 .scnd-btn a{
     color: black;
     text-decoration: none;
+}
+
+.model-x{
+    text-decoration: underline;
+    cursor: pointer;
 }
