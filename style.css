@@ -29,6 +29,10 @@ body{
     color: #171a20;
 }
 
+.nav-bar{
+    display: inline-block;
+}
+
 .left-side{
     width: fit-content;
     float: left;
@@ -69,7 +73,7 @@ body{
 }
 
 .icons li{
-    display: inline;
+    display: inline-block;
 }
 
 .icons li svg{
@@ -81,4 +85,97 @@ body{
 
 .icons li svg:hover{
     background-color: #f4f4f4;
+}
+
+.model-y-img{
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-US-v2.png);
+}
+
+.main-img{
+    display: inline-block;
+    position: relative;
+    width: 88%;
+    height: 92%;
+    margin: 0;
+    margin-top: 16px;
+    margin-left: 112px;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.section{
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+
+.frst-line{
+    font-size: 56px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.scnd-line{
+    font-size: 28px;
+    color: white;
+    margin-top: 4px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+}
+
+.thrd-line{
+    font-size: 17px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.thrd-line sup{
+    font-size: 7px;
+    text-align: center;
+}
+
+.buttons{
+  padding: 4px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 548px;
+  margin-left: 570px;
+  margin-bottom: 32px;
+}
+
+.frst-btn {
+    background-color: #3e6ae1;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    float: left;
+}
+
+.frst-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.scnd-btn {
+    background-color: #ffffff;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    float: left;
+    margin-left: 16px;
+}
+
+.scnd-btn a{
+    color: black;
+    text-decoration: none;
 }
