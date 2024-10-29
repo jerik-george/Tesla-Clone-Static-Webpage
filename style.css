@@ -107,6 +107,14 @@ body{
     background-image: url(assets/cybertruck.png);
 }
 
+.solar-panels-img{
+    background-image: url(assets/solar-panels.png);
+}
+
+.solar-roof-img{
+    background-image: url(assets/solar-roof.png);
+}
+
 .main-img{
     display: inline-block;
     position: relative;
@@ -115,6 +123,27 @@ body{
     margin: 0;
     margin-top: 16px;
     margin-left: 112px;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.main-section-solar{
+    width: 94%;
+    clear: both;
+    display: flex;
+}
+
+.main-img-right{
+    display: inline-block;
+    position: relative;
+    width: 88%;
+    height: 92%;
+    margin: 0;
+    margin-top: 16px;
+    margin-left: 16px;
     background-color: black;
     background-position: center center;
     background-repeat: no-repeat;
@@ -168,6 +197,17 @@ body{
   margin-top: 548px;
   margin-left: 570px;
   margin-bottom: 32px;
+}
+
+.buttons-solar{
+    padding: 4px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 548px;
+    margin-left: 147px;
+    margin-bottom: 32px;
 }
 
 .frst-btn {
