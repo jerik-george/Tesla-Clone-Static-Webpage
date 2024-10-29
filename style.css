@@ -103,6 +103,10 @@ body{
     background-image: url(assets/model-s.png);
 }
 
+.cybertruck-img{
+    background-image: url(assets/cybertruck.png);
+}
+
 .main-img{
     display: inline-block;
     position: relative;
@@ -174,6 +178,7 @@ body{
     padding-bottom: 10px;
     border-radius: 4px;
     float: left;
+    cursor: pointer;
 }
 
 .frst-btn a{
@@ -190,6 +195,7 @@ body{
     border-radius: 4px;
     float: left;
     margin-left: 16px;
+    cursor: pointer;
 }
 
 .scnd-btn a{
@@ -200,4 +206,29 @@ body{
 .model-x{
     text-decoration: underline;
     cursor: pointer;
+}
+
+.cybertruck-logo{
+    width: 299.95px;
+    height: 84.37px;
+    display: inline-block;
+    position: relative;
+    margin-top: 109px;
+    margin-left: 690px;
+}
+
+.cybertruck-btn{
+    background-color: #111111; 
+    border-radius: 0; 
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 2px inset;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.cybertruck-btn:hover{
+    opacity: 0.80;
+}
+
+.cybertruck-btn a{
+    color: #a2a3a5;
 }
