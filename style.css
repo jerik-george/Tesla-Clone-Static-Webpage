@@ -123,6 +123,16 @@ body{
     background-image: url(assets/accessories.png);
 }
 
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 .main-img{
     display: inline-block;
     position: relative;
@@ -165,10 +175,26 @@ body{
     font-weight: bold;
 }
 
+.section-vdo{
+    display: block;
+    position: relative;
+    padding-bottom: 171px;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
 .frst-line{
     font-size: 56px;
     margin-top: 100px;
     text-align: center;
+}
+
+.frst-line-vdo{
+    margin-top: 469px;
+    margin-left: 48px;
+    text-align: left;
+    font-size: 40px;
 }
 
 .scnd-line{
@@ -218,6 +244,13 @@ body{
     margin-bottom: 32px;
 }
 
+.buttons-vdo{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  }
+
 .frst-btn {
     background-color: #3e6ae1;
     padding-left: 80px;
@@ -246,7 +279,25 @@ body{
     cursor: pointer;
 }
 
+.scnd-btn-vdo{
+    background-color: #ffffff;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    float: left;
+    margin-left: 48px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
 .scnd-btn a{
+    color: #393c41;
+    text-decoration: none;
+}
+
+.scnd-btn-vdo a{
     color: #393c41;
     text-decoration: none;
 }
