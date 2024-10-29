@@ -115,6 +115,10 @@ body{
     background-image: url(assets/solar-roof.png);
 }
 
+.powerwall-img{
+    background-image: url(assets/powerwall.png);
+}
+
 .main-img{
     display: inline-block;
     position: relative;
