@@ -119,6 +119,10 @@ body{
     background-image: url(assets/powerwall.png);
 }
 
+.accessories-img{
+    background-image: url(assets/accessories.png);
+}
+
 .main-img{
     display: inline-block;
     position: relative;
