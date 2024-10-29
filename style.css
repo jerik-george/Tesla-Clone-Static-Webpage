@@ -347,3 +347,22 @@ video {
 .terms a{
     color: #393c41;
 }
+
+.footer-bar {
+    width: 100%;
+    height: 55px;
+}
+
+.footer-bar footer{
+    color: #5c5e62;
+    font-size: 12px;
+    margin-top: 52px;
+    margin-left: 661px;
+}
+
+footer p{
+    display: inline;
+    margin-left: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
